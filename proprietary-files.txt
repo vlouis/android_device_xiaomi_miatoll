@@ -73,16 +73,12 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # Audio
 vendor/lib/btaudio_offload_if.so
-vendor/lib/hw/audio.primary.atoll.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libadm.so
 vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libdrc.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
-vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 
 # Audio FX modules
@@ -374,6 +370,10 @@ vendor/lib64/camera/com.qti.tuned.sunny_ov32a1q.bin|832fb5849953dd173de82589fbad
 # Camera sensors (joyeuse)
 vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin
 
+# Camera provider
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -514,11 +514,9 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.default.so
 vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # FM
 system_ext/lib64/fm_helium.so
@@ -596,6 +594,7 @@ vendor/firmware/a630_sqe.fw
 
 # GNSS
 vendor/app/CACertService/CACertService.apk
+vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
