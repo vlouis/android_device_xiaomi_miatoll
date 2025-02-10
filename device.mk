@@ -97,8 +97,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     disable_configstore \
-    gralloc.atoll \
-    hwcomposer.atoll \
+    gralloc.qcom \
+    hwcomposer.qcom \
     libdisplayconfig.system.qti \
     libqdMetaData.system \
     vendor.qti.hardware.display.allocator-service \
